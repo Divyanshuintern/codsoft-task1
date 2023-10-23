@@ -1,0 +1,138 @@
+body, h1, h2, h3, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #f0f0f0; 
+    font-family: Arial, sans-serif; 
+}
+
+#header {
+    background-color: #333; 
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex; 
+    justify-content: space-between; 
+}
+
+#header h1 {
+    font-size: 36px;
+    flex: 1; 
+    text-align: left;
+}
+
+#header p {
+    font-style: italic;
+    flex: 1; 
+    text-align: right; 
+}
+#header img {
+    max-width: 100px; 
+    height: auto;
+}
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: rgba(244, 239, 239, 0.205);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 40px; 
+    color: rgb(0, 0, 0) 
+}
+
+.about-content img {
+    max-width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.about-text {
+    flex: 1;
+    text-align: justify;
+    font-size: 23px;
+    line-height: 1.6;
+    font-family: 'Queen',Arial,sans-serif;
+}
+@font-face {
+    font-family: 'Queen';
+    src: url(" C:\\Users\\rajpu\\Downloads\\queensides-font\\Queensides-3z7Ey.ttf") format('woff');
+
+}
+body {
+    background-image: url('https://img.freepik.com/free-photo/white-cloud-blue-sky_74190-7702.jpg'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family:'Queen' Arial, sans-serif; 
+    color: black; 
+}
+h3 {
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+.para{
+    width: 80%;
+    text-align: justify;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+img {
+    max-width: 100%;
+    height: auto; 
+}
+
+#skills-section {
+    background-color: rgba(155, 152, 152, 0.336);
+    padding: 20px;
+    border-radius: 10px; 
+}
+button {
+    background-color: #007bff; 
+    color: #fff; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-heading {
+    text-align: center; 
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.contact-buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+.contact-buttons button {
+    background-color: #28a745;
+    margin-right: 10px; 
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+}
+
+.contact-buttons a button {
+    background-color: #007bff; 
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+footer a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
